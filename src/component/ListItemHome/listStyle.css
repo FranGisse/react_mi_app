@@ -1,0 +1,25 @@
+.btn{
+    display:block;
+    
+    background-color:rgb(240, 210, 240);
+     border-radius: 8%;
+     font-size: 100%;
+     text-align: center;
+     border:2px solid rgb(72, 255, 0);
+     position: relative;
+     left:10px;
+     
+  }
+  a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  a:hover{
+     opacity: 0.8;
+     color:orange;
+  }
+  a:disabled{
+     opacity: 0.9;
+     cursor: not-allowed;
+  }

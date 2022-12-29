@@ -1,0 +1,41 @@
+.filt{
+    font-size: 40px;
+    color:aquamarine;
+    align-items: center;
+
+}
+.bg-success{
+    display: flex;
+    flex-direction: row;
+    background-color: blue;
+    font-size: 20px;
+    padding:0 20px;
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+    
+    
+    }
+.Filter{
+    
+    font-size: 20px;
+    color:yellow;
+    gap:10px;
+    padding: 10px;
+    gap:10px;
+}
+@media(max-width:950px){
+    .bg-success{
+        display: grid;
+    grid-template-columns: repeat(2,1fr);
+        position: relative;
+        margin: 0px;
+        padding:0px;
+        font-size: 15px;
+       
+    }
+    .Filter{
+        gap:0;
+        top:0;
+    }
+}

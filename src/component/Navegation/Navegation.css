@@ -1,0 +1,92 @@
+.Cabecera{
+   display: flex;
+    background-color: blue;
+  justify-content: center;
+    width: 100%;
+    height: 20%;
+    position: sticky;
+    align-items: center;
+    gap:10px ;
+    z-index: 9000;
+    
+   
+    
+}
+
+
+
+ .lista{
+    Display:flex;
+    flex-direction: row;
+    position: relative;
+    
+ }   
+ul{
+    list-style-type: none;
+    padding: 10px;
+    
+}
+.item{
+    text-align: center;
+    color:bisque;
+    font-size: 25px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    
+}
+.logo{
+    color:yellowgreen;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px orange, 0 0 40px yellowgreen, 0 0 50px yellow, 0 0 60px red , 0 0 90px orange, 0 0 100px whitesmoke;
+    
+}
+.bton_to{
+   border:solid salmon;
+   background-color: rgb(228, 228, 105);
+    display:none;
+    position: absolute;
+    right:30px;
+    top:30px;
+    padding: 10px;
+    color:rgb(204, 154, 60);
+    font-size: 30px;
+    
+}
+@media(max-width:900px){
+    
+   .lista{
+        
+        display:block;
+        flex-direction:column;
+        height: auto;
+       
+        
+        
+     }   
+     .item:nth-child(1){
+      border-top:1px solid black ;
+      margin-top: 50px;
+
+     }
+     
+     .item{
+      width: auto;
+      border-top: 1px solid black;
+      text-align: center;
+     }
+     .bton_to{
+      display: block;
+     }
+    @media(max-width:600px){
+        .logo{
+            font-size: 20px;
+        }
+    }
+   
+}
+

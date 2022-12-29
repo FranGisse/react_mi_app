@@ -1,0 +1,115 @@
+.mi_formulario_header{
+    background-color: antiquewhite;
+    justify-content: center;
+       position: absolute;
+       top: 80%;
+       left: 50%;
+       margin: 0px;
+       transform: translate(-50%, -50%);
+       width: 80vh;
+       align-items: center;
+       border:3px solid slateblue ;
+       
+    
+  }
+  .mi_formulario_title{
+   
+    padding-left: 5%;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px pink;
+    
+    position: relative;
+    
+  }
+  .mi_formulario_body{
+    background-color: rgb(75,75,75);
+    font-size:15px;
+    color:white;
+    font-weight: 20px;
+  }
+  .mi_formulario_form{
+    padding:20px;
+    text-align: left;
+
+  }
+  .mi_formulario_label {
+    color: orange;
+    font-size: 25px;
+    font-weight: 20px;
+    display: block;
+   
+  }
+  .mi_formulario_input-icon{
+    
+    width: 100%;
+    margin-bottom: 10px;
+    max-width: 250px;
+  }
+  
+  
+  .mi_formulario_icon{
+    position: absolute;
+    padding: 10px;
+    color:rgb(2, 26, 26);
+    min-width: 50px;
+    text-align: center;
+    padding-left: 0;
+  
+  }
+  .mi_formulario_input{
+    left: 20%;
+   
+    padding: 10px;
+    text-align: center;
+    color:rgb(20, 2, 2);
+  }
+  .mi_formulario_button{
+    background-color: beige;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left:20px ;
+    padding-right: 20px;
+  
+  }
+  .mi_formulario_button:hover{
+    opacity:0.8;
+    color:blueviolet;
+  }
+  .mi_formulario_button:disabled{
+    opacity: 0.2;
+    cursor: not-allowed;
+  }
+  .mi_formulario_footer{
+    width: 100%;
+    background-color: rgb(71, 71, 88);
+    height: 40px;
+    text-align: center;
+    
+  }
+  .mi_formulario_error{
+    color:red;
+  }
+  .form-control{
+    width: 90%;
+    padding: 10px;
+    text-align: center;
+    color:rgb(95, 1, 1);}
+       
+
+
+    
+@media(max-width:500px){
+  .mi_formulario_header{background-color: antiquewhite;
+    justify-content: center;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       margin: 0px;
+       transform: translate(-50%, -50%);
+       width: 40vh;
+       align-items: center;
+       border:3px solid slateblue ;
+    
+
+  }
+}

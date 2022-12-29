@@ -1,0 +1,19 @@
+
+.section-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 10px;
+    text-align: center;
+    width: auto;
+    top: 30px;
+    right: 20px;
+    margin:20px;
+   
+}
+@media(max-width:950px){
+    .section-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);}
+
+}
